@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gorizintal{
+    background-color: black;
+    height: 5px;
+    top: 400px;
+     position: relative; 
+}
+.vertical{
+    transform:rotate(22deg);
+    width: 900px;
+    position:relative;
+    background-color: black;
+    height: 5px;
+    top: 225px; 
+    right: 38px;   
+}
+img{
+    position: relative;
+    left: 120px;
+    top:200px;
+    animation-name: car;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode:both;
+    transform: rotate(22deg);
+}
+@keyframes car{
+    0%{
+         left: 1250px;
+         top: 432px; 
+        transform: rotate(0deg);
+      }
+      35%{
+        transform: rotate(0deg);
+      }
+      
+     40% 
+    {
+         left:700px;
+         top: 432px;
+         transform: rotate(20deg);
+    }
+    100%{
+        left: 0px;
+        top: 150px;
+       
+    }
+} 
